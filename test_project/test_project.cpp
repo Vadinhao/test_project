@@ -5,7 +5,10 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int a = 5;
+    int b = 5;
+    int c = a * b;
+    std::cout << "Hello World!" << c << std::endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
