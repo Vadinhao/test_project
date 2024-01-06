@@ -5,7 +5,9 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int a = 5;
+    int b = 5;
+    std::cout << "Hello World!\n" << a + b << std::endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
