@@ -8,6 +8,8 @@ int main()
     int a = 5;
     int b = 5;
     std::cout << "Hello World!\n" << a + b << std::endl;
+    int c = a * b;
+    std::cout << "Hello World!" << c << std::endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
